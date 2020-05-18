@@ -10255,9 +10255,8 @@ opacity: 1;
 }
 
 /* photoshop.css */
-p {
+.photoshop-content {
   font-size: 1.25rem;
-  color: white;
 }
 .photoshop-content img {
   border-radius: 1%;
@@ -10271,4 +10270,31 @@ p {
   margin-bottom: 3rem;
   padding: 3rem;
   border-radius: 1%;
+}
+
+/* travel */
+.location-panel {
+  margin-bottom: 6rem;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 1%;
+}
+.location-panel h2 {
+  padding: 1rem;
+  text-align: center;
+}
+.location-panel .carousel-item {
+  margin-bottom: 30px;
+}
+.location-panel .carousel-item h3{
+  margin-top: 10px;
+}
+.location-panel .carousel-indicators {
+  margin-bottom: 0;
+}
+.photo-column img {
+  max-width: 100%;
+  border-radius: 1%;
+}
+.travel-content button {
+  font-size: 1.5rem;
 }
